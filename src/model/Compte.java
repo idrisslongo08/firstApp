@@ -35,17 +35,5 @@ public class Compte {
         return Objects.hash(id, Desc, numero);
     }
 
-    public Compte() {
-        super();
-    }
 
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
-    }
-
-    @Override
-    protected void finalize() throws Throwable {
-        super.finalize();
-    }
 }
