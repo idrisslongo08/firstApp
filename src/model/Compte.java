@@ -30,6 +30,7 @@ public class Compte {
         return id == compte.id && numero == compte.numero && Objects.equals(Desc, compte.Desc);
     }
 
+    //Fonction de hashage du module
     @Override
     public int hashCode() {
         return Objects.hash(id, Desc, numero);
